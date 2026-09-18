@@ -1,0 +1,14 @@
+{
+  "name": "eco-bliss-bath-tests",
+  "version": "1.0.0",
+  "description": "Tests automatisés Cypress pour le site e-commerce Eco Bliss Bath",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "test": "cypress run"
+  },
+  "devDependencies": {
+    "cypress": "^15.21.1",
+    "cypress-mochawesome-reporter": "^3.8.4"
+  }
+}

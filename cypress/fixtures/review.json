@@ -1,0 +1,22 @@
+{
+  "validReview": {
+    "title": "Très bon savon",
+    "comment": "Je recommande ce produit, il sent très bon.",
+    "rating": 4
+  },
+  "xssScriptReview": {
+    "title": "Avis test qualité",
+    "comment": "<img src=\"x\" onerror=\"window.xssExecuted = true\">",
+    "rating": 1
+  },
+  "xssScriptTagReview": {
+    "title": "Avis test qualité script",
+    "comment": "<script>window.xssExecuted = true</script>",
+    "rating": 1
+  },
+  "xssHtmlReview": {
+    "title": "Avis test qualité HTML",
+    "comment": "<b id=\"xss-html-injection\">texte en gras injecté</b>",
+    "rating": 1
+  }
+}
